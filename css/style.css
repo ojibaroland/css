@@ -74,6 +74,7 @@ a:visited{
     margin:20px 0px;
     /* background-color: aquamarine; */
 
+
 }
 
 .box-1 h1{
@@ -132,5 +133,11 @@ a:visited{
 .my-form input[type="text"], input[type="email"], .my-form textarea{
     padding: 8px;
     width: 40%;
+
 }
 
+
+.para{
+    background-color: #555555;
+    text-align: center;
+}
