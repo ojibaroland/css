@@ -206,5 +206,13 @@ a:visited{
 }
 
 .my-list li:nth-child(5){
-    background: red;
+    background: yellow;
+}
+
+.my-list li:nth-child(even){
+    background: grey;
+}
+
+.my-list li:nth-child(odd){
+    background: greenyellow;
 }
