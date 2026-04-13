@@ -24,7 +24,7 @@ a{
 }
 
 a:hover{
-    color: red;
+    color: black;
 }
 
 a:active{
@@ -46,6 +46,16 @@ a:visited{
     padding: 10px 15px;
     border: none;
     border-radius: 0.5em;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+
+.clr{
+    clear:both;
+
 }
 
 .box-1 {
@@ -132,12 +142,69 @@ a:visited{
 
 .my-form input[type="text"], input[type="email"], .my-form textarea{
     padding: 8px;
-    width: 40%;
-
+    width: 45%;
 }
 
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
-.para{
-    background-color: #555555;
-    text-align: center;
+#main-block {
+    float: left;
+    width: 70%;
+}
+
+#sidebar {
+    float: left;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../images/abstract.jpg');
+    background-position: 100px 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: blanchedalmond;
+}
+
+.my-list li:nth-child(5){
+    background: red;
 }
